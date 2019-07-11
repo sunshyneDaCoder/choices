@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 1200px;
+        }
+
+        h1 {
+            color: gold;
+            text-align: center;
+            text-decoration-line: underline;
+        }
+
+        h2 {
+            color: black;
+            text-align: center;
+        }
+        a{
+            margin-left: 170px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Choices</h1>
+        <h2>"He Popped The Big Question "</h2>
+        <h4> Girl, your man just proposed to you and he is waiting for your answer... WHAT WILL YOU DECIDE? Will you accept or reject his hand in marriage? If your answer is yes, then get ready to do lots of planning girl! Decisions, Decisions, Decisions!!! But, if you snatch his heart out of his chest and say no... prepare to find another place to live and try to decide how do you move forward from here?</h4>
+        <img src="{{ url_for('static', filename='img/mainpic.jpg')}}"width=1000>
+        
+        <a href="/no">I'm Not Ready</a> 
+        <a href="/yes">OMG Yasssssss>></a>
+    </div>
+</body>
+
+</html>

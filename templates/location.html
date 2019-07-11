@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: skyblue;
+            height: 1200px;
+        }
+
+        h1 {
+            color: gold;
+            text-align: center;
+            text-decoration-line: underline;
+        }
+
+        h2 {
+            color: black;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>So Many Places To Choose From</h1>
+        <img src="{{ url_for('static', filename='img/destination.jpg')}}">
+    </div>
+</body>
+
+</html>
